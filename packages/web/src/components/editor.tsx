@@ -25,9 +25,9 @@ import {
   keymap,
   lineNumbers as lineNumbersExtension,
 } from "@codemirror/view";
-import { evalKeymap, flashField, remoteEvalFlash } from "@flok-editor/cm-eval";
+import { evalKeymap, flashField, remoteEvalFlash } from "flok-cm-eval";
 import { tidal } from "@flok-editor/lang-tidal";
-import type { Document } from "@flok-editor/session";
+import type { Document } from "flok-editor-session";
 import { highlightExtension } from "@strudel/codemirror";
 import CodeMirror, {
   ReactCodeMirrorProps,

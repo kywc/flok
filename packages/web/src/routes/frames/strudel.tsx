@@ -1,7 +1,7 @@
 import { useEvalHandler } from "@/hooks/use-eval-handler";
 import { StrudelWrapper } from "@/lib/strudel-wrapper";
 import { sendToast } from "@/lib/utils";
-import { type EvalMessage } from "@flok-editor/session";
+import { type EvalMessage } from "flok-editor-session";
 import { useCallback, useEffect, useState } from "react";
 
 export function Component() {

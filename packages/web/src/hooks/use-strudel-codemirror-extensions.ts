@@ -1,4 +1,4 @@
-import { Session } from "@flok-editor/session";
+import { Session } from "flok-editor-session";
 import {
   highlightMiniLocations,
   updateMiniLocations,

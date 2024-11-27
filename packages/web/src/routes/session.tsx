@@ -32,7 +32,7 @@ import {
   panicCodes as panicCodesUntyped,
   webTargets,
 } from "@/settings.json";
-import { Session, type Document } from "@flok-editor/session";
+import { Session, type Document } from "flok-editor-session";
 import { type ReactCodeMirrorRef } from "@uiw/react-codemirror";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";

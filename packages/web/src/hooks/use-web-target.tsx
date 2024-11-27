@@ -1,4 +1,4 @@
-import type { EvalMessage, Session } from "@flok-editor/session";
+import type { EvalMessage, Session } from "flok-editor-session";
 import { useEffect, useState } from "react";
 import { useQuery } from "./use-query";
 

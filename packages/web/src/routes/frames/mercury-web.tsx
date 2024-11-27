@@ -1,7 +1,7 @@
 import { useEvalHandler } from "@/hooks/use-eval-handler";
 import { MercuryWrapper } from "@/lib/mercury-wrapper";
 import { sendToast } from "@/lib/utils";
-import { type EvalMessage } from "@flok-editor/session";
+import { type EvalMessage } from "flok-editor-session";
 import { useCallback, useEffect, useState } from "react";
 
 declare global {

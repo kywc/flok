@@ -254,7 +254,7 @@ export class Session {
     this._pubSubClient.destroy();
     if (this._wsProvider && this._wsProvider.wsconnected)
       this._wsProvider.destroy();
-    if (this._webrtcProvider && !this._webrtcProvider.closed)
+    if (this._webrtcProvider)
       this._webrtcProvider.destroy();
     if (this._idbProvider) this._idbProvider.destroy();
     this._yTargets().unobserve(this._handleObserveSharedTypes);

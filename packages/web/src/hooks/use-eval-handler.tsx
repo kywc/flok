@@ -1,4 +1,4 @@
-import { EvalMessage } from "@flok-editor/session";
+import { EvalMessage } from "flok-editor-session";
 import { useEffect } from "react";
 
 export function useEvalHandler(callback: (message: EvalMessage) => void) {

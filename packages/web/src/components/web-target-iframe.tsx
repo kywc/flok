@@ -1,5 +1,5 @@
 import { useQuery } from "@/hooks/use-query";
-import { EvalMessage, Session } from "@flok-editor/session";
+import { EvalMessage, Session } from "flok-editor-session";
 import { useEffect, useRef } from "react";
 
 export interface WebTargetIframeProps {

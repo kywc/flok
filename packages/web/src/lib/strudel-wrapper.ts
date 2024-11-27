@@ -1,4 +1,4 @@
-import type { EvalMessage } from "@flok-editor/session";
+import type { EvalMessage } from "flok-editor-session";
 import {
   Pattern,
   controls,

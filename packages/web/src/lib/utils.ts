@@ -1,4 +1,4 @@
-import { type Session } from "@flok-editor/session";
+import { type Session } from "flok-editor-session";
 import { ReactCodeMirrorRef } from "@uiw/react-codemirror";
 import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";

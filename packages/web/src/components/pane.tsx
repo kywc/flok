@@ -1,7 +1,7 @@
 import { EvaluateButton } from "@/components/evaluate-button";
 import TargetSelect from "@/components/target-select";
 import { cn } from "@/lib/utils";
-import type { Document } from "@flok-editor/session";
+import type { Document } from "flok-editor-session";
 import { PropsWithChildren } from "react";
 
 interface PaneProps extends PropsWithChildren {
